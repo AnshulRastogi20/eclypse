@@ -53,13 +53,13 @@ export default {
 					foreground: 'hsl(var(--card-foreground))'
 				},
 				sidebar: {
-					DEFAULT: 'hsl(var(--sidebar-background))',
+					DEFAULT: 'hsl(var(--sidebar))',
 					foreground: 'hsl(var(--sidebar-foreground))',
-					primary: 'hsl(var(--sidebar-primary))',
-					'primary-foreground': 'hsl(var(--sidebar-primary-foreground))',
-					accent: 'hsl(var(--sidebar-accent))',
-					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
+					active: 'hsl(var(--sidebar-active))',
+					'active-foreground': 'hsl(var(--sidebar-active-foreground))',
+					hover: 'hsl(var(--sidebar-hover))',
+					'hover-foreground': 'hsl(var(--sidebar-hover-foreground))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
 			},
@@ -84,11 +84,16 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'caret-blink': {
+					'0%,70%,100%': { opacity: '1' },
+					'20%,50%': { opacity: '0' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'caret-blink': 'caret-blink 1.25s ease-out infinite'
 			}
 		}
 	},

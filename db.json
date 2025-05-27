@@ -1,0 +1,36 @@
+{
+  "products": [
+    {
+      "id": "prod1",
+      "name": "Silhouette No. 1 – Vermillion",
+      "description": "A tailored composition in motion. Cut from structured wool with a sculpted shoulder and softened hem, this piece captures presence without force. Worn here in the stillness of a city in motion.",
+      "price": 7999,
+      "images": {
+        "main": "https://cdn.builder.io/api/v1/image/assets/4255c83362904501ae0b45174ef14bf2/bf0b3dfdddde174e14a32c9b9f4c604f3331dced?placeholderIfAbsent=true",
+        "thumbnails": [
+          "https://cdn.builder.io/api/v1/image/assets/4255c83362904501ae0b45174ef14bf2/f353b48dd0d07705ab5ac525aa8d679695d6ef2a?placeholderIfAbsent=true",
+          "https://cdn.builder.io/api/v1/image/assets/4255c83362904501ae0b45174ef14bf2/cf6270164d47793f41925d2f36382b13c41e8593?placeholderIfAbsent=true",
+          "https://cdn.builder.io/api/v1/image/assets/4255c83362904501ae0b45174ef14bf2/6115fc0666fa04ee0716c70eb0277c7cb65e80e1?placeholderIfAbsent=true"
+        ]
+      },
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "details": {
+        "sizeFit": "<p class=\"mb-4\">Our garments are designed with a relaxed fit that drapes elegantly on the body.</p><ul class=\"mb-4 space-y-2\"><li>XS: Chest 36\", Length 28\"</li><li>S: Chest 38\", Length 28.5\"</li><li>M: Chest 40\", Length 29\"</li><li>L: Chest 42\", Length 29.5\"</li><li>XL: Chest 44\", Length 30\"</li></ul><p>For detailed measurements, please refer to our size chart.</p>",
+        "deliveryReturns": "<p class=\"mb-4\">Free standard shipping on all orders over ₹5,000.</p><p class=\"mb-4\">Delivery within 3-5 business days.</p><p>Returns accepted within 14 days of delivery. Items must be unworn, unwashed, and with all original tags attached.</p>",
+        "howMade": "<p class=\"mb-4\">Crafted from 100% premium wool sourced from ethical farms.</p><p class=\"mb-4\">Designed in our studio in Mumbai and handcrafted by skilled artisans.</p><p class=\"mb-4\">Each piece undergoes rigorous quality control to ensure longevity and durability.</p><p>We use natural dyes and sustainable production methods to minimize environmental impact.</p>"
+      }
+    }
+  ],
+  "cartItems": [
+    {
+      "id": "cartItem1",
+      "productId": "prod1",
+      "name": "Silhouette No. 1 – Vermillion",
+      "price": 7999,
+      "size": "M",
+      "quantity": 1,
+      "image": "https://cdn.builder.io/api/v1/image/assets/4255c83362904501ae0b45174ef14bf2/bf0b3dfdddde174e14a32c9b9f4c604f3331dced?placeholderIfAbsent=true"
+    }
+  ],
+  "orders": []
+}
