@@ -71,7 +71,7 @@ To get the ECLYPSE project running locally, follow these steps:
     npm run dev
     ```
     This command will:
-    *   Start the Vite development server (usually on `http://localhost:5173`).
+    *   Start the Vite development server (usually on `http://localhost:8080`).
     *   Start the JSON server (mock backend) (usually on `http://localhost:3001`).
 
     Your default web browser should automatically open the application. If not, navigate to the Vite server URL printed in your console.
