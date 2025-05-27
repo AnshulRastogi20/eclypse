@@ -53,7 +53,7 @@ To get the ECLYPSE project running locally, follow these steps:
 
 1.  **Clone the repository (if you haven't already):**
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/AnshulRastogi20/eclypse.git
     cd eclypse 
     ```
     *(Skip this step if you already have the project files.)*
